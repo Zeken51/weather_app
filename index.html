@@ -8,7 +8,60 @@
         <link rel="stylesheet" href="./css/estilos.css" />
     </head>
     <body>
-        <h1>titulo</h1>
+        <header><h1>Weather Dashboard</h1></header>
+        <main>
+            <aside>
+                <h2>Search for a city</h2>
+                <input type="search" placeholder="" id="city-search" />
+                <input type="submit" value="Search" id="submit-search" />
+                <hr />
+                <div id="choose-city">
+                    <button>Atlanta</button>
+                    <button>Denver</button>
+                    <button>Seattle</button>
+                    <button>San Francisco</button>
+                    <button>Orlando</button>
+                    <button>New York</button>
+                    <button>Chicago</button>
+                    <button>Austin</button>
+                </div>
+            </aside>
+
+            <section>
+                <div class="descr-city">
+                    <h2 id="header-city">Alanta (mm/dd/yyy)</h2>
+                    <img src="" alt="Aqui va una imagen" id="img-city" />
+                    <p>Temp: <span id="temp">76.62 </span>F</p>
+                    <p>Wind: <span id="wind">8.43</span> MPH</p>
+                    <p>Humidity: <span id="Humidity">44</span> %</p>
+                </div>
+                <h3>5-Day Forecast:</h3>
+
+                <div class="day-weather-city">
+                    <div class="day-forecast">
+                        <h4>mm/dd/yyyy</h4>
+                        <img src="" alt="Aqui va una imagen" />
+                        <p>Temp:</p>
+                        <p>Wind:</p>
+                        <p>Humidity:</p>
+                    </div>
+                    <div>
+                        <h4>mm/dd/yyyy</h4>
+                        <img src="" alt="Aqui va una imagen" />
+                        <p>Temp:</p>
+                        <p>Wind:</p>
+                        <p>Humidity:</p>
+                    </div>
+                    <div>
+                        <h4>mm/dd/yyyy</h4>
+                        <img src="" alt="Aqui va una imagen" />
+                        <p>Temp:</p>
+                        <p>Wind:</p>
+                        <p>Humidity:</p>
+                    </div>
+                </div>
+            </section>
+        </main>
     </body>
     <script src="./js/index.js"></script>
 </html>
